@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    body {background-color: black;margin:0;}
+    h1 {color: white; text-align: center;}
+    p {font-family: verdana; text-align: center; font-size: 20px;}
+    #sourceurl {font-family: verdana; text-align: center; font-size: 10px;}
+    a {font-family: verdana; text-align: left; font-size: 20px;}
+    .row1 {
+        display: flex; 
+        justify-content: center;
+        flex-wrap: wrap;}
+    .row1 > .column {
+        width: 250px;
+        margin: 50px;
+        text-align: center;
+        }   
+</style>
+
+<body>
+<h1>DJANGO WEB SCRAPING TEST</h1>
+<div id="sourceurl">
+    <a href="https://github.com/NBolade-224/Django-WebScrape-Showcase" title="">Source Code (github)</a>
+</div>
+<br>
+<br>
+<div class="row1">
+
+    <!-- PS5 -->
+    <div class="column">
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ps5-1-1591910417.jpg?crop=1xw:0.9047619047619048xh;center,top&resize=1200:*" width="200" height="200" alt="Girl with a jacket"> 
+        <p title="">Playstation 5</p>
+        <a href="https://www.amazon.co.uk/PlayStation-9395003-5-Console/dp/B08H95Y452/" title="">Amazon Price: {{AmazonPS5Price}}</a>
+        <br>
+        <br>
+        <a href="https://www.game.co.uk/en/playstation-5-console-2826338?" title="">GAME Price: {{gamePS5Price}}</a>
+        <br>
+        <br>
+        <a href="https://www.argos.co.uk/product/8349000?" title="">Argos Price: {{argosPS5Price}}</a>
+        <br>
+        <br>
+    </div>
+
+    <!-- XBOX X -->
+    <div class="column">
+        <img src="https://media.4rgos.it/i/Argos/8448262_R_Z001A?w=1500&h=880&qlt=70&fmt=webp" width="200" height="200"  alt="Girl with a jacket"> 
+        <p title="">Xbox Series X</p>
+        <a href="https://www.amazon.co.uk/Xbox-RRT-00007-Series-X/dp/B08H93GKNJ/" title="">Amazon Price: {{AmazonXBOX_XPrice}}</a>
+        <br>
+        <br>
+        <a href="https://www.game.co.uk/en/xbox-series-x-2831406?" title="">GAME Price: {{gameXBOX_XPrice}}</a>
+        <br>
+        <br>
+        <a href="https://www.argos.co.uk/product/8448262?" title="">Argos Price: {{argosXBOX_XPrice}}</a>
+        <br>
+        <br>
+    </div>
+
+    <!-- SWITCH -->
+    <div class="column">
+        <img src="https://media.4rgos.it/s/Argos/2077921_R_SET?w=270&h=270&qlt=75&fmt=webp" width="200" height="200" alt="Girl with a jacket"> 
+        <p title="">Nintendo Switch</p>
+        <a href="https://www.amazon.co.uk/Nintendo-Switch-OLED-Model-White/dp/B098TVDYZ3/" title="">Amazon Price: {{AmazonSWITCHPrice}}</a>
+        <br>
+        <br>
+        <a href="https://www.game.co.uk/en/nintendo-switch-neon-oled-model-2858149" title="">GAME Price: {{gameSWITCHPrice}}</a>
+        <br>
+        <br>
+        <a href="https://www.argos.co.uk/product/9482210?" title="">Argos Price: {{argosSWITCHPrice}}</a>
+        <br>
+        <br>
+    </div>    
+
+    <!-- XBOX S -->
+    <div class="column">
+        <img src="https://media.currys.biz/i/currysprod/10205195?$l-large$&fmt=auto" width="200" height="200" alt="Girl with a jacket"> 
+        <p title="">Xbox Series S</p>
+        <a href="https://www.amazon.co.uk/Xbox-RRS-00007-Series-S/dp/B08GD9MNZB" title="">Amazon Price: {{AmazonXBOX_SPrice}}</a>
+        <br>
+        <br>
+        <a href="https://www.game.co.uk/en/xbox-series-s-2831409" title="">GAME Price: {{gameXBOX_SPrice}}</a>
+        <br>
+        <br>
+        <a href="https://www.argos.co.uk/product/8448248?" title="">Argos Price: {{argosXBOX_SPrice}}</a>
+        <br>
+        <br>
+    </div>    
+
+</div>
+</div>
